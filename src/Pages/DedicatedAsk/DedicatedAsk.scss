@@ -1,0 +1,16 @@
+.section-title3{
+    width: fit-content;
+    margin: 0px 30px;
+        font-family: "Hanimation_Arabic_Regular", sans-serif;
+        font-size: 36px;
+        background-color: var(--mcolor);
+        color: white;
+        padding: 10px 20px;
+        width: fit-content;
+        text-align: center;
+        margin: auto;
+        border-radius: 30px;
+        @media (max-width:992px) {
+            font-size: 29px;
+        }
+}

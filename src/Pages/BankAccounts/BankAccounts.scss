@@ -1,0 +1,57 @@
+.BankAccounts{
+    padding: 60px 0;
+    direction: rtl;
+    font-family: Hanimation_Arabic_Regular;
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 50px;
+        @media (max-width:767px){
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .bank-card{
+            box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.25);
+            padding: 30px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .image{
+                max-height: 80px;
+                width: fit-content;
+                margin: auto;
+                img{
+                    object-fit: contain;
+                    height: 50px;
+                }
+            }
+            .item{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                @media (max-width:767px){
+                    gap: 8px;
+                }
+                h5{
+                    text-align: center;
+                    @media (max-width:767px){
+                        font-size: 18px;
+                    }
+                }
+                p{
+                    text-align: center;
+                    color: gray;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+                span{
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.Partners {
+    padding: 60px 0;
+    direction: rtl;
+    /* Add the following styles to your Partners.scss file */
+
+
+
+.slick-dots li {
+  margin: 0;  // Adjust the spacing between dots
+}
+
+.slick-dots li button {
+  font-size: 10px;  // Adjust the font size of the dots
+  // color: #fff;  // Adjust the color of the inactive dots
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button::before {
+  width: 13px;
+  height: 13px;
+}
+.slick-slider{
+  padding: 60px 0;
+}
+.slick-dots li button::before{
+  content: '';
+  background-color: var(--mcolor);
+  border-radius: 50%;
+  width: 7px;
+  height: 8px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+    .image{
+        cursor: pointer;
+        height: 190px;
+        &:hover {
+          scale:1.1;
+        }
+        @media (max-width:767px) {
+          height: 150px;
+        }
+    }
+  img {
+    object-fit: contain;
+  }
+}

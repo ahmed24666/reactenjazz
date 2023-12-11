@@ -1,0 +1,382 @@
+{
+  "nav": {
+    "lang": "العربية",
+    "home": "Home",
+    "about": "About Us",
+    "tryMe": "Try Me Service",
+    "guide": "Services Guide",
+    "call": "Call Us",
+    "packages": "Packages",
+    "CQ": "Common Questions",
+    "joinus": "Join Us",
+    "offers": "Offers",
+    "shop": "Our Shop",
+    "bank": "Bank Accounts",
+    "profile": "Profile",
+    "more": "More"
+  },
+  "carousel1": {
+    "h1": "Achievement Company for Business Services",
+    "h2": "Qualified Team",
+    "h3": "Our Vision",
+    "p1": "Pioneers with experience in the business world, where we provide quick and comprehensive solutions",
+    "p2": "We will be happy to assist you and answer all your inquiries",
+    "p3": "To be the leading company in providing business services and the first choice for institutions and companies in meeting their needs and achieving their goals through innovative solutions and high-quality service",
+    "btn1": "Free Consultation",
+    "btn2": "Service Request"
+  },
+  "circles": {
+    "h1": "Enjaaz Services",
+    "c11": "Service Management - Annual",
+    "c12": "Service Management - Semi-Annual",
+    "c13": "Service Management - Three Months",
+    "c21": "Wage Protection - Annual",
+    "c22": "Wage Protection - Monthly",
+    "c1": "Service Management",
+    "c2": "Register a trademark",
+    "c3": "Establishment Of Facilities",
+    "c4": "Legal Advice",
+    "c5": "All Government Services",
+    "c6": "Wage Protection",
+    "c7": "Reducing Financial Burdens",
+    "c8": "Free Try Me Service"
+  },
+  "SS": {
+    "h1": "You can request a free consultation",
+    "h2": "Try Me Service",
+    "p1": "We provide your establishment with business consulting services aimed at guiding and setting the management course of the facility in the right direction, supporting the growth of your business in a balanced and peaceful work environment.",
+    "p2": "Try Me Service is a free service offered by Injaz to its clients, allowing you to experience two services for free.",
+    "btn": "Order Now"
+  },
+  "why": {
+    "head": "? Why Enjazz",
+    "h1": "Conscious Experience",
+    "h2": "Tailored Uniqueness",
+    "h3": "Quality Excellence",
+    "h4": "Long-term Collaboration",
+    "p1": "With 9 years of experience, we have gained extensive knowledge and completed hundreds of projects, providing our clients with awareness and a comprehensive understanding of our industry.",
+    "p2": "Your requirements are distinct, and we are committed to offering customized solutions that precisely match your expectations.",
+    "p3": "We are devoted to delivering the highest standards of quality across all aspects of our diverse services.",
+    "p4": "We view our relationship with you as more than just a transaction; it's a partnership aimed at mutual success."
+  },
+  "cq": {
+    "h1": "Frequently Asked Questions",
+    "path": "Home /",
+    "p1": "All Questions"
+  },
+  "count": {
+    "h1": "Service",
+    "h2": "Consultations",
+    "h3": "Positive Reviews",
+    "h4": "Number of Customers",
+    "h11": "Over 500 Services for Businesses",
+    "h22": "Over +2263",
+    "h33": "Reviews We're Proud Of",
+    "h44": "Interested Customers"
+  },
+  "partners": {
+    "h1": "Success Partners"
+  },
+  "reviews": {
+    "h1": "Customer Reviews"
+  },
+  "footer": {
+    "toph1": "Subscribe to the Newsletter",
+    "topemail": "Email",
+    "topbtn": "Subscribe Now",
+    "bottomh1": "Enjaaz Services Company",
+    "bottomp1": "With the most distinguished workforce, we innovate ideas and capture attention by providing a professional, impressive service of international quality, giving our clients the opportunity to grow, evolve, and excel in the business world.",
+    "bottomh2": "Important Links",
+    "bottomh4": "Services",
+    "bottomh5": "About The Company",
+    "bottomh6": "Certificates and licenses",
+    "ul1": "Request Service",
+    "ul2": "About Us",
+    "ul3": "Frequently Asked Questions",
+    "ul4": "Contact Us",
+    "ul5": "Join Us",
+    "ul6": "Appointment Booking",
+    "ul7": "Online store",
+    "ul8": "Individual Services Department",
+    "ul9": "Company Policy",
+    "ul10": "Terms and Conditions",
+    "ul11": "Intellectual Property Rights",
+    "bottomh3": "Contact Us",
+    "address": "Main Office - Riyadh - Northern Ring Road",
+    "bottomp5": "Enjaaz Services Company, a registered company with tax number: 311825996500003",
+    "bottomp6": "All rights reserved for Enjaaz Services Company 2023 ©"
+  },
+  "aboutus": {
+    "h1": "About Us",
+    "path": "Home /",
+    "h2": "Who Are We ?",
+    "p1": "Founded in 2014, Enjaaz Company is a specialist in catering to the requirements of businesses, projects, institutions, and corporations. Our company extends adept guidance and rapid, all-encompassing solutions meticulously tailored to fulfill the demands of establishments and enterprises. Our accomplished team excels in crafting systematic strategies to expedite the resolution of challenges. Furthermore, we underscore the significance of nurturing and honing the workforce within these entities.",
+    "h3": "Our Vision",
+    "p2": "Founded in 2014, Enjaaz Company is a specialist in catering to the requirements of businesses, projects, institutions, and corporations. Our company extends adept guidance and rapid, all-encompassing solutions meticulously tailored to fulfill the demands of establishments and enterprises. Our accomplished team excels in crafting systematic strategies to expedite the resolution of challenges. Furthermore, we underscore the significance of nurturing and honing the workforce within these entities.",
+    "h4": "Our Mission",
+    "p3": "Our unwavering efforts are directed towards constructing robust pillars in the domains of innovation and service augmentation. We are dedicated to actively seeking out novel prospects and delivering the utmost solutions. Additionally, we allocate resources to furnish consultations that amplify efficiency and efficacy. We aspire to foster resilient collaborative bonds with corporations, ministries, and pertinent governmental bodies. Our objective revolves around playing pivotal roles in driving the accomplishments and advancement of our valued clientele."
+  },
+  "Tryme": {
+    "h1": "Try Me Service",
+    "path": "Home Page /",
+    "h2": "Try Me Service",
+    "p1": "Try Me Service is a free service provided by Enjaaz to its customers, allowing you to use up to two free services.",
+    "p2": "* You can contact us via WhatsApp or by filling out the following information"
+  },
+  "form": {
+    "required": "* Required",
+    "p1": "* You can contact us via WhatsApp or by filling out the following information",
+    "fullName": "Entity / Full Name",
+    "email": "Email",
+    "phone": "Mobile Number",
+    "city": "City",
+    "reason": "Reason for Contact",
+    "typeS": "Service Type",
+    "typeC": "Partnership Type",
+    "details": "Request Details",
+    "details2": "Details",
+    "details3": "Notes",
+    "upload": "Upload Document",
+    "upload2": "(You can upload your resume or profile)",
+    "send": "Send"
+  },
+  "guide": {
+    "h1": "Service Guide",
+    "path": "Home Page /",
+    "h2": "Enjaaz Service Guide"
+  },
+  "askService": {
+    "h1": "Request A Service",
+    "path": "Home Page /",
+    "p": "We are here for you so do not hesitate to contact us and we will do our best to contact you as soon as possible."
+  },
+  "FreeConsulting": {
+    "h1": "Free Consulting",
+    "h2": "Request A Free Consulting",
+    "path": "Home Page /",
+    "p": "We provide your facility with a business consulting service with the aim of guiding it and its administrative path on the right path, which supports your activity in a balanced and purposeful work environment."
+  },
+  "callus": {
+    "h1": "Contact Us",
+    "path": "Home Page /",
+    "h2": "Contact Us",
+    "address": "Head Office - Riyadh - Northern Ring Road",
+    "p": "We are here for you, so feel free to contact us, and we will make every effort to get in touch with you as soon as possible."
+  },
+  "joinus": {
+    "h1": "Join Us",
+    "path": "Home Page /",
+    "h2": "Join Us",
+    "p": "We are delighted to collaborate with you, so don't hesitate to become our partners in success."
+  },
+  "packages": {
+    "h1": "Packages",
+    "path": "Home Page /",
+    "h2": "Enjaaz Packages",
+    "p": "Because of the scale of our clients' businesses, we understand their specific demands. As a result, we provide customised pricing that is aligned with satisfying their objectives to the greatest extent possible while keeping worldwide quality standards.",
+    "p1": "We have different grades that classify the service related to the specialized needs, aiming to provide the best service for specialists.",
+    "btn1": "Service Management Package",
+    "p2": "This specialized package offers a comprehensive solution for companies to efficiently manage their payroll and benefits, enabling them to achieve higher efficiency and better focus on business growth.",
+    "btn2": "Payroll Management Package",
+    "p3": "This service aims to enhance the unique identity that distinguishes a company from its competitors in the market. It plays a pivotal role in building trust, and customer loyalty, increasing brand awareness, and achieving success in the market.",
+    "btn3": "Design and Marketing Services",
+    "p4": "Marketing services encompass a range of activities and strategies aimed at promoting specific products, services, or brands and increasing audience awareness",
+    "btn4": "Marketing Services Package"
+  },
+  "package1": {
+    "h1": "Service Management Package",
+    "path": "Home Page / Packages /",
+    "h2": "Service Management Package",
+    "p": "We have different grades that classify the service related to the specialized needs, aiming to provide the best service for specialists.",
+    "h3": "Service Management Package"
+  },
+  "package2": {
+    "h1": "Payroll Management Package",
+    "path": "Home Page / Packages /",
+    "h2": "Payroll Management Package",
+    "p": "This specialized package offers a comprehensive solution for companies to efficiently manage their payroll and benefits, enabling them to achieve higher efficiency and better focus on business growth.",
+    "h3": "Payroll Management Package"
+  },
+  "package3": {
+    "h1": "Design and Marketing Services Package",
+    "path": "Home Page / Packages /",
+    "h2": "Design and Marketing Services Package",
+    "p": "This service aims to enhance the unique identity that distinguishes a company from its competitors in the market. It plays a pivotal role in building trust, and customer loyalty, increasing brand awareness, and achieving success in the market.",
+    "h3": "Design and Marketing Services Package",
+    "p2": "These are just a few examples of the design services available and can be customized according to the needs of clients and different industries."
+  },
+  "package4": {
+    "h1": "Marketing Services Package",
+    "path": "Home Page / Packages /",
+    "h2": "Marketing Services Package",
+    "p": "Marketing services encompass a range of activities and strategies aimed at promoting specific products, services, or brands and increasing audience awareness",
+    "h3": "Marketing Services Package",
+    "p2": "Marketing services play a crucial role in promoting the success of companies, increasing their sales, and building strong relationships with customers. These services vary according to the needs of clients and different industries."
+  },
+  "subsc": {
+    "h1": "Subscribe Now"
+  },
+  "offers": {
+    "h1": "Offers",
+    "path": "Home /",
+    "h2": "Our Offers",
+    "h3": "Current Offers"
+  },
+  "calc": {
+    "f1": "Number of employees",
+    "f2": "Package type",
+    "f3": "Do you want to subscribe to wage protection?",
+    "f4": "Number of years",
+    "s1": "Bronze Package",
+    "s2": "Silver Package",
+    "s3": "Gold Package",
+    "s4": "Diamond Package",
+    "reset": "Reset",
+    "much": "The cost will be :",
+    "title": "Subscription Value Calculator",
+    "choose": "choose",
+    "true": "Yes",
+    "false": "No"
+  },
+  "company_policy": {
+    "secH": "Privacy Policy and Confidentiality of Information",
+    "p1_1": "The (Enjaaz Services) team welcomes you and thanks you for your trust in it. (Enjaaz Services) informs you that out of its concern and full awareness that the user has rights, (Enjaaz Services) seeks to preserve the users’ information in accordance with the privacy policy and information confidentiality mechanism in place. It is in (Enjaaz Services). Accordingly, (Enjaaz Services) clarifies to you that the privacy policy and confidentiality of information according to which your information will be dealt with is as follows:",
+    "h2_1": "First: The information that Enjaaz Services obtains and maintains in its databases",
+    "h2_2": "Second: Does Enjaaz Services share this information?",
+    "h2_3": "Third: How secure is the confidentiality of the store’s information?",
+    "h2_4": "Fourth: Is there a third party in the relationship between (Enjaaz Services) and the merchant?",
+    "h2_5": "Fifth: Rules and provisions for using (Enjaaz Services):",
+    "p1_2": "\"Here, the privacy policy is specified regarding cases where there is a third party, such as marketers, technicians, the consumer, and any other person involved in the relationship.\"",
+    "p1_3_1": "All commitments of (Enjaaz Services), all user obligations, and all rights in the relationship between the user or consumer and (Enjaaz Services) are located here ",
+    "p1_3_2": ", as these rules are the \"Privacy Policy and Confidentiality of Information\" Emerging from the agreement concluded between the user and (store name) regarding the regular and legal relationship between them, the privacy policy and confidentiality of information was established to ensure the credibility and trust that (Enjaaz Services) is keen to provide to users.",
+    "span": "(Enjaaz Services) seeks to preserve the confidentiality of user information and the privacy policy and will not violate the provisions of these rules and policy. However, since it is not possible to guarantee this 100% via the Internet, the Enjaaz Services team notes the following:",
+    "part1": {
+      "1": "1. The user’s personal information, such as name, age, email, national ID number or residence number.",
+      "2": "2. As a general rule, all this information is only accessible to those responsible for (Enjaaz Services), and they will not publish or transmit it to others.",
+      "3": "3. The nature of the electronic platform may require some information related to cookies for electronic purposes that facilitate the interaction between the store and the user."
+    },
+    "part2": {
+      "1": "1. Naturally, (Enjaaz Services) seeks to retain this information in a way that preserves the user’s privacy, and (Enjaaz Services) does not retain this information except with the aim of improving the quality of the online store and facilitating dealing with (Enjaaz Services) and the user.",
+      "2": "2. The user’s personal login information, such as the user name, password, email, and the password recovery question and its answer.",
+      "3": "3. Since (Enjaaz for Services) seeks to maintain the safety of users, - in the event that (Enjaaz for Services) notices any irregular or illegal activity carried out by the user - (Enjaaz for Services) may inform the competent authorities after consulting with the attorney for (Enjaaz Services)."
+    },
+    "part3": {
+      "1": "1. (Enjaaz Services) seeks to maintain the confidentiality of users’ information and privacy policy and will not violate the provisions of these rules and policy. However, since it is not possible to guarantee this 100% via the Internet, the Enjaaz Services team notes the following:",
+      "2": "2. (Enjaaz Services) works to protect this information through “specific servers?” Protected under electronic protection systems “Software system or specific software?”",
+      "3": "3. However, given that the Internet cannot be 100% guaranteed due to any hacking or viruses that may occur on the electronic protection systems and on the firewalls in place at (Enjaaz Services), (Enjaaz Services) advises users to keep their information strictly confidential, and not to divulge any information. The user finds it very important to him, and this is out of the interest of (Enjaaz Services) in directing and advising users."
+    }
+  },
+  "copyrights": {
+    "h4": "We own all intellectual property rights to our website, and all materials published on it are subject to protection under copyright laws and international treaties. All these rights are reserved."
+  },
+  "terms_and_conditions": {
+    "h2_1": "First: Definitions",
+    "p_1": "\"Enjaaz\": Service Provider: Enjaaz Commercial Services Company",
+    "span_1": "“Enjaaz” is a commercial services company.",
+    "p_2": "\"Injaaz Packages\":",
+    "span_2": "Human resources management service and electronic services for government agencies for establishments, where the service is only for electronic services and not for reviewing government agencies.",
+    "p_3": "\"Beneficiary\":",
+    "span_3": "The beneficiary of Enjaaz packages services.",
+    "p_4": "\"Circumstances beyond control\":",
+    "span_4": "Causes beyond reasonable control.",
+    "p_5": "\"Bronze Enjaaz Package\":",
+    "span_5": "This service allows managing the facility's electronic services, which are as follows:",
+    "p_6": "\"Silver Enjaaz Package\":",
+    "span_6": "This service allows managing the facility’s electronic services included in the Bronze Enjaaz Package, in addition to the following services:",
+    "p_7": "\"Gold Enjaaz Package\":",
+    "span_7": "This service provides a wide range of administrative services and includes all the services included in the Bronze and Silver Packages, in addition to the following services:",
+    "p_8": "\"Platinum Enjaaz Package\":",
+    "span_8": "This service provides a wide range of administrative services and includes all the services mentioned in the Bronze, Silver, and Gold packages, in addition to the following services:",
+    "part1": {
+      "1": "Management of workforce services",
+      "2": "Social insurance services management",
+      "3": "Ministry of Commerce services management",
+      "4": "Absher services management, Resident",
+      "5": "Manage my services",
+      "6": "Chamber of Commerce services management",
+      "7": "Zakat and Income services management",
+      "8": "Labor office services management",
+      "9": "Support program services management",
+      "10": "Medical insurance services management"
+    },
+    "part2": {
+      "1": "Najez services management",
+      "2": "Nafith services management"
+    },
+    "part3": {
+      "1": "Payroll management and wage protection",
+      "2": "Documenting employment contracts for employees",
+      "3": "Reducing financial burdens"
+    },
+    "part4": {
+      "1": "Website design",
+      "2": "Online store design",
+      "3": "Professional logo design",
+      "4": "E-marketing services"
+    },
+    "fifth": {
+      "1": "A - The beneficiary undertakes not to disrupt the service and to cooperate with Injaaz in providing the service to his facility as soon as possible. In the event of non-cooperation, Injaaz has the right to terminate the subscription.",
+      "2": "B - The beneficiary undertakes not to offend Enjaaz employees or the company entity and to follow the correct methods in the event of any complaints regarding the service. When he does so, he undertakes to pay the necessary compensation for any damage or losses due to that violation in accordance with what is determined by the regulations in force in the Kingdom of Saudi Arabia. The subscriber also bears all Fines issued against him by the competent authorities",
+      "3": "C - The subscriber bears all responsibilities resulting from requests issued by the employee or delegate in dealing with Enjaaz.",
+      "4": "D - The beneficiary has no right to claim any compensation from Injaaz for service delays due to technical malfunctions or other reasons.",
+      "5": "E - The beneficiary undertakes to provide Injaaz with all user names and passwords for all the establishment’s accounts in government agencies, and if they change, he will inform the company of this."
+    },
+    "ninth": {
+      "1": "1) Injaaz does not bear responsibility for problems resulting from incorrect or updated information provided to the subscriber by the competent authorities through the facility’s system.",
+      "2": "2) It is not responsible for the completion of violations that occur to the establishment for any reason, and the subscriber does not have the right to demand that it do so.",
+      "3": "3) Injaaz does not bear any responsibility for any losses incurred by the subscriber (directly or indirectly) resulting from implementing this subscription.",
+      "4": "4) Enjaaz reserves the right to restrict the use of the service by setting a maximum limit for the services provided.",
+      "5": "5) The beneficiary agrees to disclaim Injaaz responsibility for errors of telecommunications service providers or government agency websites, such as disruption of the connection to the website.",
+      "6": "6) The subscriber agreed that Enjaaz has the right to destroy or not present the original documents, and any copies of them provided by Enjaaz in this regard are considered a document with evidence of proof before the competent authorities and the judiciary as long as they bear the Enjaaz logo and seal.",
+      "7": "7) Injaz has the right to terminate the subscription if it wants not to continue without any restrictions, or if the beneficiary uses the system for a purpose other than its intended purpose, or violates one of the terms and conditions of using the service, or if the competent authorities request that the service be stopped for the beneficiary, and in this case only Refunding the amounts paid to the beneficiary for the remaining period of the subscription only without requesting any other compensation. The subscription also ends in the event of force majeure.",
+      "8": "8) The beneficiary does not have the right to request Enjaaz to review governmental or semi-governmental agencies, as the service is only for managing electronic services, and the beneficiary provides employees to carry out reviews if needed."
+    },
+    "tenth": {
+      "1": "1) All previous terms and conditions from the first to the second clause apply to the Enjaaz package subscription service security.",
+      "2": "2) The service provider has the right to change the pricing addendum for the subscription service in the packages when renewing the subscription or adding new services. The beneficiary or his representative, after continuing to subscribe after notifying him of the change, is considered to have agreed to the new value and the obligation to pay the financial amounts and fees resulting from that.",
+      "3": "3) The Ministry of Human Resources’ services management is limited to the electronic service available in the establishment’s account only in accordance with the applicable system, and the subscriber is not entitled to request that Enjaz conduct any irregular transaction.",
+      "4": "4) The Ministry of Commerce’s services management is limited to electronic services (renewal of commercial records - cancellation of commercial records - amendment of commercial records - reservation of trade names) only.",
+      "5": "5) The Social Insurance Services Department is limited to the electronic service available in the facility’s account only in accordance with the applicable system, and the subscriber is not entitled to request Enjaz to conduct any transaction that is not available in the facility’s account.",
+      "6": "6) The General Authority of Zakat and Income’s services management is limited to electronic services (submitting zakat returns - submitting tax returns - registering the establishment - deregistering the establishment).",
+      "7": "7) The Ministry of Interior’s services management is limited to the electronic service available in the establishment’s account only in Absher Business or the Muqeem service, and the subscriber has no right to request Enjaaz to perform any transaction that is not available in the Absher Business account or Muqeem service.",
+      "8": "8) My municipal services management is limited to electronic services (issuing a municipal license - renewing a municipal license - canceling a municipal license - amending a municipal license).",
+      "9": "9) The (Civil Defense) Safety Services Department is limited to electronic services (submitting a request to issue a civil defense license - renewing a civil defense license).",
+      "10": "10) The management of insurance companies’ services is limited to electronic services (issuing a medical insurance policy for workers - renewing a medical insurance policy).",
+      "11": "11) The salary management and wage protection subscription service is limited to electronic services (uploading salary files, auditing files, correcting errors and violations).",
+      "12": "12) The service of alleviating the burdens on establishments is limited to registering the participant’s establishment in government initiatives or studying the establishment in general and assisting decision makers in alleviating the financial burdens by preparing a report on this, if possible.",
+      "13": "13) The website design service is limited to creating an introductory website consisting of a group of pages. If the client desires to design a professional website or an online store, it will be under an independent contract and is not included in this subscription.",
+      "14": "14) The marketing service through social media sites is limited to creating an account for the establishment on all social media sites and linking it to the company’s website. In the event that the subscriber desires to market through sites that require payment of fees for advertising, then the person responsible for bearing these fees is the beneficiary and is not entitled to demand that Enjaz do so.",
+      "15": "15) Free features include search and reservation at the lowest available prices, but do not include the ticket price, reservation price, or insurance."
+    },
+    "part_h2": {
+      "1": "Second: Subscription category",
+      "2": "Third: Duration of subscription",
+      "3": "Fourth: Time to provide the service",
+      "4": "Fifth: Subscriber’s obligations",
+      "5": "Sixth: The beginning of service activation",
+      "6": "Seventh: The cost of the service",
+      "7": "Eighth: Settlement of disputes",
+      "8": "Ninth: General provisions",
+      "9": "Tenth: Terms and conditions for Enjaaz packages",
+      "10": " Approval and authorization",
+      "11": " Intellectual property rights"
+    },
+    "part_p": {
+      "1": "The beneficiary must specify the subscription category he desires, which is either the Bronze Package, Silver Package, Gold Package, or Platinum Package subscription.",
+      "2": "The subscription is valid for a full calendar year from the date of transferring the package fees, and is automatically renewed unless the subscriber is notified of his desire not to renew one month before the end date of the subscription through the approved means of communication.",
+      "3": "Injaaz makes every effort to provide the service 24 hours a day and during official holidays, while not bearing responsibility if the service is not available for any reason.",
+      "4": "The service begins after paying the subscription fee for the service. If the subscriber wishes to modify the package or add new services, this will be taken into account, provided that the required documents are available and the differences for the added services are paid.",
+      "5": "The beneficiary pays the subscription value shown in the subscription form, and the subscriber does not bear any other amounts during the subscription period. The value of this subscription does not include any government fees or the like, but rather the amount in exchange for providing the service.",
+      "6": "This subscription is subject to the regulations in force in the Kingdom and is implemented and interpreted in accordance with them. Any dispute that arises from the application of this subscription or is related to it and cannot be settled will be settled in accordance with the regulations of the Kingdom of Saudi Arabia.",
+      "7": "I, the undersigned, acknowledge that I have read the terms and conditions of subscription to Enjaaz packages and agree to everything stated therein",
+      "8": "We own all intellectual property rights to our website, and all materials published on it are protected by copyright laws and international treaties, and all such rights are reserved."
+    }
+  },
+  "bank": {
+    "h5": "Enjaaz Business Services Company",
+    "p1": "Account Number: ",
+    "p2": "IBAN: ",
+    "red": "Notice: ",
+    "long_p": "The bank accounts mentioned above are exclusive to Achievement Services Company only. We would like to emphasize that we are not responsible for any other bank accounts."
+  }
+}

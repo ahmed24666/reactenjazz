@@ -1,0 +1,130 @@
+.Packages {
+  padding: 60px 0;
+  direction: rtl;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1 {
+      font-size: 36px;
+      font-weight: 500;
+      font-family: "Hanimation_Arabic_Regular";
+      margin: unset;
+      @media (max-width: 992px) {
+        margin: auto;
+      }
+      
+      @media (max-width: 767px) {
+        font-size: 29px;
+      }
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: "Hanimation_Arabic_Regular";
+      color: black;
+      margin-bottom: 25px;
+      @media (max-width: 992px) {
+        text-align: center !important;
+      }
+      @media (max-width: 767px) {
+        font-size: 19px;
+      }
+    }
+    .packs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      justify-content: space-between;
+      justify-items: space-between;
+      justify-self: space-between;
+    }
+    .pack {
+      border-radius: 16px;
+      border: 1px solid var(--mcolor);
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+      &:hover {
+        background-color: var(--mcolor);
+        p {
+          color: #d0cfcf;
+        }
+        svg {
+          path.pathTran {
+            fill: transparent;
+            stroke: white;
+          }
+          path {
+            fill: white;
+          }
+        }
+        .btn {
+          border: 2px solid;
+          position: relative;
+          z-index: 1;
+          width: 100%;
+          border-radius: 16px;
+          border: 2px solid white;
+          
+          cursor: pointer;
+          background-color: var(--mcolor);
+          color: white;
+          text-align: center !important;
+          &:hover {
+            background-color: white;
+            color: var(--mcolor);
+            // border-color: var(--mcolor);
+          }
+        }
+      }
+      .top {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+      }
+      .btn {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 20px;
+        border: 2px solid var(--mcolor);
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        border-radius: 16px;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        cursor: pointer;
+        background-color: white;
+        color: var(--mcolor);
+        text-align: center !important;
+        &:hover {
+          background-color: var(--mcolor);
+          color: white;
+          // border-color: var(--mcolor);
+        }
+      }
+      .image {
+        width: 175px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 175px;
+        @media (max-width: 767px) {
+          width: 130px;
+        }
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Hanimation_Arabic_Regular;
+        color: #8a8a8a;
+        text-align: justify;
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.CallUs {
+  .Map {
+    padding: 60px 20px;
+    direction: rtl;
+    
+    .item {
+      min-width: 270px;
+      display: flex;
+      box-shadow: 0px 2px 2px 0px #00000040;
+      border-radius: 16px;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      span {
+        font-family: "Hanimation_Arabic_Regular";
+        color: var(--mcolor);
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .icon {
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+    .switch{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding: 40px 0 30px 0;
+      font-family: "Hanimation_Arabic_Regular";
+      font-size: 25px;
+      @media (max-width:767px) {
+        font-size: 20px;
+        padding: 40px 0 15px 0;
+      }
+      p{
+        position: relative;
+        cursor: pointer;
+        @media (max-width:767px) {
+          font-size: 20px;
+        }
+        &:hover{
+          .line{
+            width: 100% !important;
+          }
+        }
+        .line{
+          position: absolute;
+          height: 2px;
+          transition: 0.5s;
+          background-color: var(--scolor);
+        }
+      }
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    iframe{
+        width: 80%;
+        height: 600px;
+        filter: grayscale(1);
+        transition: 0.3s;
+        @media (max-width:992px) {
+            height: 400px;
+            width: 100%;
+        }
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+  }
+}

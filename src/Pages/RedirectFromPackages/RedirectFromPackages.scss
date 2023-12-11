@@ -1,0 +1,78 @@
+.redirectCont {
+  position: relative;
+  display: flex;
+  padding: 0px 60px;
+  justify-content: end;
+  gap: 0;
+  @media (max-width: 992px) {
+    padding-top: 60px;
+  }
+  @media (max-width: 767px) {
+    padding: 0px;
+  }
+  .wide{
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+  .small{
+    @media (min-width: 993px) {
+      display: none;
+    }
+  }
+  .Calculator {
+    padding: 0 30px;
+    input,
+    select {
+      max-width: unset !important;
+    }
+    .left {
+      @media (max-width: 767px) {
+        gap: 10px !important;
+      }
+    }
+    @media (max-width: 767px) {
+      label,
+      input,
+      h3,
+      button {
+        font-size: 18px !important;
+      }
+      h2 {
+        font-size: 22px !important;
+      }
+      .priceCon {
+        padding: 15px 20px !important;
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  option {
+    font-size: 16px !important;
+  }
+  .calcCon {
+    scale: 0.65;
+    @media (max-width: 992px) {
+      scale: 0.8;
+      width: 100%;
+    }
+    @media (max-width: 767px) {
+      scale: unset;
+    }
+  }
+  .EnjazzFormInput {
+    max-width: 90% !important;
+  }
+  .EnjazzForm {
+    width: 100%;
+    @media (max-width: 992px) {
+      padding-top: 0;
+    }
+    @media (max-width: 767px) {
+      padding: 30px;
+    }
+  }
+}

@@ -1,0 +1,523 @@
+@font-face {
+  font-family: "rptBold";
+  src: url("./fonts/rpt-Bold.ttf") format("truetype");
+  font-weight: normal; /* adjust as needed */
+  font-style: normal; /* adjust as needed */
+  font-display: swap
+}
+@font-face {
+  font-family: "rptRegular";
+  src: url("./fonts/alfont_com_rpt-Regular.ttf") format("truetype");
+  font-weight: normal; /* adjust as needed */
+  font-style: normal; /* adjust as needed */
+  font-display: swap
+}
+@font-face {
+  font-family: "Hanimation_Arabic_Regular";
+  src: url("./fonts/Hanimation_Arabic_Regular.ttf") format("truetype");
+  font-weight: normal; /* adjust as needed */
+  font-style: normal; /* adjust as needed */
+  font-display: swap
+}
+:root {
+  --mcolor: #2d1989ef;
+  --scolor: #0fa9f0;
+}
+.offcanvas {
+  transition: 0.5s !important;
+}
+* {
+  transition: 0.5s;
+}
+.circles-loader{
+  min-height: 100vh;
+  background-image: url('../public/images/خلفية\ افتتاح\ الشاشة\ .avif');
+  background-position: top right;
+  background-size: cover;
+  @media (max-width:767px) {
+    background-position: bottom center;
+  }
+  .loaderP{
+    margin-top: -30px;
+    font-size: 24px !important;
+    @media (max-width:767px) {
+      margin-top: -20px;
+      font-size: 18px !important;
+    }
+  }
+  section{
+    height: 100vh;
+    background-color: unset !important;
+    width: 60%;
+    @media (max-width:992px) {
+      width: 70% !important;
+    }
+    @media (max-width:767px) {
+      width: 65% !important;
+    }
+    margin: auto;
+  }
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+a.active {
+  text-decoration: none !important;
+  color: var(--scolor) !important;
+}
+.accordion-item {
+  margin-bottom: 30px;
+  border: none !important;
+  // direction: rtl;
+}
+.accordion-button {
+  background-color: #2d188814 !important;
+  border-radius: 16px 16px 0 0 !important;
+  padding: 20px 60px !important;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion-collapse {
+  border-radius: 0 0 16px 16px !important;
+  background-color: #2d1989 !important;
+  color: white;
+  padding: 10px 40px;
+}
+.offcanvas.offcanvas-end.show {
+  background-color: #2d1989 !important;
+}
+.closeBtn {
+  font-size: 24px;
+  color: white !important;
+  cursor: pointer;
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  padding: 0;
+  @media (max-width: 992px) {
+    display: flex;
+  }
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+.line {
+  fill: none;
+  stroke: white;
+  stroke-width: 5;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 5;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 5;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 5;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 5;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 5;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 5;
+}
+.sideLinks {
+  text-align: end;
+  padding: 0;
+  margin-bottom: 0;
+  font-family: "Hanimation_Arabic_Regular", sans-serif;
+  li {
+    color: white;
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    &:hover {
+      color: #02c1db;
+    }
+  }
+}
+.app {
+  overflow-x: hidden !important;
+  .whatsapp {
+    background-color: #2FAA3F;
+    position: fixed;
+    bottom: 5%;
+    padding: 10px;
+    right: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &::before {
+      content: "";
+      position: absolute;
+      border: 50%;
+      border: 1px solid #2FAA3F;
+      left: -20px;
+      right: -20px;
+      top: -20px;
+      bottom: -20px;
+      border-radius: 50%;
+      animation: animate 1.5s linear infinite;
+      opacity: 0;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      border: 50%;
+      border: 1px solid #2FAA3F;
+      left: -10px;
+      right: -10px;
+      top: -10px;
+      bottom: -10px;
+      border-radius: 50%;
+      animation: animate 1.5s linear infinite;
+      opacity: 0;
+    }
+    &:hover .image {
+      animation: shake 0.8s infinite;
+    }
+    @keyframes animate {
+      0%{
+        opacity: 0;
+        scale: 0.6;
+      }
+      50%{
+        opacity: 1;
+        scale: 1;
+      }
+      100% {
+        opacity: 0;
+        scale: 1.4;
+      }
+    }
+    @keyframes shake {
+      0%,
+      100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 0;
+      }
+      10% {
+        transform: rotate(2deg);
+      }
+      20%,
+      40%,
+      60% {
+        transform: rotate(-4deg);
+      }
+      30%,
+      50%,
+      70% {
+        transform: rotate(4deg);
+      }
+      80% {
+        transform: rotate(-2deg);
+      }
+      90% {
+        transform: rotate(2deg);
+      }
+    }
+
+    .image {
+      width: 35px;
+      height: auto;
+    }
+    @media (max-width: 767px) {
+      width: 50px;
+      height: 50px;
+      padding: 10px;
+    }
+  }
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px; /* Small devices (576px and up) */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; /* Medium devices (768px and up) */
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      max-width: 1200px; /* Large devices (992px and up) */
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1200px; /* Extra-large devices (1200px and up) */
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+  .secH {
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: max-content;
+    background-color: var(--mcolor);
+    font-family: "Hanimation_Arabic_Regular", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 20px;
+    @media (max-width: 992px) {
+      text-align: center !important;
+    }
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  li {
+    list-style: none;
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+    font-family: "Hanimation_Arabic_Regular", sans-serif;
+    .button {
+      font-size: 20px;
+      font-weight: 600;
+      padding: 8px 20px;
+      border: 2px solid white;
+      position: relative;
+      z-index: 1;
+      border-radius: 16px;
+      cursor: pointer;
+      @media (max-width: 767px) {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+    .button1 {
+      z-index: 1;
+      border-radius: 30px;
+      cursor: pointer;
+      &:hover {
+        // border-color: var(--mcolor);
+        background-color: white;
+        color: var(--mcolor);
+      }
+    }
+    .button2 {
+      z-index: 1;
+      border-radius: 30px;
+      background-color: white;
+      color: var(--mcolor);
+      cursor: pointer;
+      &:hover {
+        // border-color: var(--mcolor);
+        background-color: var(--mcolor);
+        color: white;
+      }
+    }
+  }
+  .EnjazzForm {
+    direction: rtl;
+    padding: 60px 0;
+    p {
+      font-size: 20px !important;
+      font-weight: 500;
+      font-family: "Hanimation_Arabic_Regular";
+      color: black;
+      padding: 40px 10px;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      @media (max-width: 767px) {
+        font-size: 19px;
+        width: 95%;
+      }
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      @media (max-width: 992px) {
+        align-items: center;
+      }
+      h1 {
+        font-size: 36px;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        margin: unset;
+        @media (max-width: 992px) {
+          text-align: center !important;
+        }
+        @media (max-width: 767px) {
+          font-size: 29px;
+        }
+      }
+      span {
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        font-size: 18px;
+        color: #6b6b6b;
+        @media (max-width: 992px) {
+          text-align: center !important;
+        }
+      }
+      p {
+        font-size: 24px;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        color: black;
+        padding: unset;
+        text-align: start;
+        margin: unset;
+        @media (max-width: 992px) {
+          text-align: center !important;
+          margin: auto;
+        }
+        @media (max-width: 767px) {
+          font-size: 19px;
+        }
+      }
+      .EnjazzFormInputs {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        select {
+          appearance: none; /* Hide the default arrow */
+          background-position: left;
+          background: url("./../public/images/down.webp") no-repeat right center; /* Add a custom arrow */
+          background-size: 26px; /* Set the size of the custom arrow */
+
+          option {
+            font-family: "Hanimation_Arabic_Regular" !important;
+            font-size: 20px;
+            font-weight: 600;
+            @media (max-width: 992px) {
+              font-size: 15px;
+            }
+          }
+        }
+        .EnjazzFormInput {
+          padding: 20px;
+          border-radius: 16px;
+          border: 1px solid #c9c7c7;
+          font-size: 20px;
+          font-weight: 500;
+          font-family: "Hanimation_Arabic_Regular";
+          max-width: 75%;
+          @media (max-width: 992px) {
+            width: 100%;
+            max-width: unset;
+            margin: auto;
+          }
+          @media (max-width: 767px) {
+            font-size: 16px;
+          }
+        }
+        .EnjazzFormInputFile {
+          position: relative;
+          display: flex;
+          width: fit-content !important;
+          align-items: center;
+          gap: 13px;
+          @media (max-width: 767px) {
+            gap: 8px;
+          }
+          .icon {
+            width: 40px;
+            @media (max-width: 767px) {
+              width: 25px;
+              min-width: 25px;
+            }
+          }
+          p {
+            color: #969696;
+            font-size: 20px;
+            font-weight: 500;
+            font-family: "Hanimation_Arabic_Regular";
+            width: fit-content;
+            @media (max-width: 767px) {
+              font-size: 16px;
+            }
+          }
+          span {
+            font-size: 15px;
+            font-weight: 500;
+            font-family: "Hanimation_Arabic_Regular";
+            @media (max-width: 767px) {
+              font-size: 13px;
+            }
+          }
+          input {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            right: 0;
+            opacity: 0;
+            cursor: pointer;
+          }
+        }
+      }
+      .EnjazzFormBtn {
+        background-color: var(--mcolor);
+        padding: 15px 100px;
+        border-radius: 16px;
+        color: white;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        font-size: 25px;
+        cursor: pointer;
+        width: fit-content;
+        border: 3px solid var(--mcolor);
+        &:hover {
+          border-color: var(--mcolor);
+          background-color: white;
+          color: var(--mcolor);
+        }
+        @media (max-width: 767px) {
+          font-size: 19px;
+          padding: 15px 50px;
+        }
+      }
+    }
+  }
+}

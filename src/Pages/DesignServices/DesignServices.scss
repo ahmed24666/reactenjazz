@@ -1,0 +1,126 @@
+.DesignServices {
+  padding: 60px 0;
+  direction: rtl;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1 {
+      font-size: 36px;
+      font-weight: 500;
+      font-family: "Hanimation_Arabic_Regular";
+      color: var(--mcolor);
+      text-align: center;
+      @media (max-width: 992px) {
+        margin: auto;
+      }
+      @media (max-width: 767px) {
+        font-size: 29px;
+      }
+    }
+    h2{
+      color: white;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: "Hanimation_Arabic_Regular";
+      color: black;
+      @media (max-width: 992px) {
+        text-align: center !important;
+      }
+      @media (max-width: 767px) {
+        font-size: 19px;
+      }
+    }
+    .title{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      li{
+        list-style: disc;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        color: #807f7f;
+        text-align: justify;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+      }
+    }
+    .packs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 13px;
+      @media (max-width: 500px) {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+    }
+    .pack {
+      border-radius: 16px;
+      border: 1px solid var(--mcolor);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      gap: 20px;
+      &:hover{
+        background-color: var(--mcolor);
+        h1 {
+          color: white;          
+        }
+        p {
+          color: #d0cfcf;
+        }
+        li{
+          color: #d0cfcf;
+        }
+        span {
+          color: var(--mcolor);
+          background-color: white;
+        }
+      }
+      h1 {
+        font-size: 32px;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        color: var(--mcolor);
+        text-align: center !important;
+        @media (max-width: 767px) {
+          font-size: 29px;
+        }
+      }
+      p {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Hanimation_Arabic_Regular";
+        color: #807f7f;
+        text-align: justify;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+      }
+      span {
+        font-size: 20px;
+        font-weight: 500;
+        background-color: var(--mcolor);
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-family: "Hanimation_Arabic_Regular";
+        color: white;
+        text-align: center !important;
+        cursor: pointer;
+        @media (max-width: 767px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

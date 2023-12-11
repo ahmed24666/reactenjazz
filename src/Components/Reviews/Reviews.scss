@@ -1,0 +1,87 @@
+.Reviews {
+  padding: 60px 0;
+  .slick-dots li {
+    margin: 0;  // Adjust the spacing between dots
+  }
+  
+  .slick-dots li button {
+    font-size: 10px;  // Adjust the font size of the dots
+    // color: #fff;  // Adjust the color of the inactive dots
+    padding: 3px;
+    border-radius: 50%;
+  }
+  
+  .slick-dots li.slick-active button::before {
+    width: 13px;
+    height: 13px;
+  }
+  .slick-slider{
+    padding: 60px 0;
+  }
+  .slick-dots li button::before{
+    content: '';
+    background-color: var(--mcolor);
+    border-radius: 50%;
+    width: 7px;
+    height: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .container{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+  }
+  .arrow {
+    color: var(--mcolor);
+    font-size: 30px !important;
+    margin: 30px;
+    cursor: pointer;
+    &:hover {
+      color: var(--scolor);
+    }
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+  h1{
+    direction: rtl;
+  }
+  .slide {
+    padding: 40px 20px;
+    // margin: 0px 15px;
+    border-radius: 16px;
+    direction: rtl;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px !important;
+    max-height: 400px !important;
+    gap: 20px;
+    text-align: center !important;
+    border: 5px solid white;
+    width: 100%;
+    background-color: #d0caf1;
+    .image{
+        width: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .stars{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: gold;
+        font-size: 20px;
+    }
+    p{
+        font-family: "Hanimation_Arabic_Regular", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: justify;
+    }
+  }
+}
